@@ -5,3 +5,5 @@ we receive a null exception if the name is not found in the search (In this case
 
 You see below the result with \ without TryGet Pattern:
 ![image](https://github.com/user-attachments/assets/269d7005-6cc8-4921-a2e4-b92ecd52b9f3)
+
+* Obs: This pattern does not improve performance after use, just more clean implementation and defensive programming philosophy.
