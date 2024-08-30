@@ -23,7 +23,7 @@ public class Program
       var persons = CreatePersons();
 
       person = persons
-        .FirstOrDefault(_ => _.Name.Equals("name"));
+        .FirstOrDefault(_ => _.Name.Equals(name));
 
       return person is not null;
     }
@@ -34,7 +34,7 @@ public class Program
       var persons = CreatePersons();
 
       var result = persons
-        .FirstOrDefault(_ => _.Name.Equals("name"));
+        .FirstOrDefault(_ => _.Name.Equals(name));
 
       return result;
     }
